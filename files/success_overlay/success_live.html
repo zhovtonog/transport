@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <style>
+            @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+            @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            body{
+                font: 400 18px 'Lato', sans-serif;
+                background: transparent;
+            }
+            a{
+                color: #6798e7;
+                text-decoration: none;
+                font-weight: 700;
+            }
+            .clearfix:after {
+              clear: both;
+              content: ".";
+              display: block;
+              height: 0;
+              text-indent: -9999px;
+              visibility: hidden;
+            }
+            .congrat-modal-window {
+                width: 700px;
+                height: 320px;
+                overflow: hidden;
+                position: relative;
+            }
+            .congrat-modal-body{
+                background: #fff;
+            }
+            .congrat-modal-body h2{
+                font: 700 26px 'Lato', sans-serif;
+                text-align: center;
+                padding: 20px;
+            }
+            .congrat-modal-body h3{
+                font: 400 13px 'Lato', sans-serif;
+                text-align: center;
+                background: #6eb54a;
+                color: #fff;
+                padding: 10px 0 12px 0;
+            }
+            .congrat-modal-body h3 b{
+                font-size: 18px;
+            }
+            .congrat-modal-title{
+                font: 700 18px 'Lato', sans-serif;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 2px;
+            }
+            .congrat-modal-text{
+                font: 400 18px 'Lato', sans-serif;
+                text-align: center;
+            }
+            .congrat-modal-button-started{
+                display: block;
+                background: #6eb54a;
+                color: #fffefe;
+                font: 400 15px 'Lato', sans-serif;
+                text-align: center;
+                width: 170px;
+                height: 40px;
+                line-height: 40px;
+                -webkit-border-radius: 5px;
+                border-radius: 5px;
+                border-bottom: 2px solid #4b802c;
+                -webkit-transition: all .5s ease;
+                -moz-transition: all .5s ease;
+                -ms-transition: all .5s ease;
+                -o-transition: all .5s ease;
+                transition: all .5s ease;
+                margin: 5px auto 0 auto;
+            }
+            .congrat-modal-button-started:hover{
+                text-decoration: none;
+                color: #fff;
+                background: #4b802c;
+            }
+            .text-center-box{
+                text-align: center;
+            }
+            </style>
+    </head>
+
+    <body>
+        <div class="congrat-modal-window ">
+          <div class="congrat-modal-body">
+              
+          <p class="congrat-modal-title">Next step: Start driving traffic to your site</p>
+            <br />
+            <p class="congrat-modal-text">Get your website in front of customers<br> with an email campaign</p>
+            <br />
+            <div class="text-center-box">
+                <img src="/sites/ice/files/success_overlay/congratulations_modal_window_pic.jpg" alt="" title="">
+            </div>
+            <a id="get_start" href="#" class="congrat-modal-button-started">Get started</a>
+          </div>
+        </div>
+	<script>
+	function makeid()
+	{
+	    var text = "";
+	    var possible = "0123456789abcdef";
+	    for( var i=0; i < 10; i++ )
+		text += possible.charAt(Math.floor(Math.random() * possible.length));
+	    return text;
+	}
+
+
+	document.getElementById("get_start").href = "https://sso.carrierzone.com/oauth2/authorize?redirect_uri=https://deluxemarketing.verticalresponse.com/dms/flow/email&response_type=code&client_id=prod_vr&state=" + makeid();
+	</script>
+    </body>
+	
+</html>
