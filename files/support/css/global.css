@@ -1,0 +1,428 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+/*
+    font-family: 'Lato', sans-serif;
+    book - 300
+    normal - 400
+    bold - 700 
+*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+textarea {
+    resize: none;
+    outline: 0
+}
+img,
+a img {
+    border: 0
+}
+b {
+    font-weight: 700;
+}
+.clear:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+.clear {
+    zoom:1;display: block
+}
+input,
+button {
+    font-family: 'Lato', sans-serif;
+}
+body {
+    font: 400 14px/20px 'Lato', sans-serif;
+    color: #232222;
+    background: transparent;
+}
+.body_wrap {
+    width: 940px;
+    margin: 0 auto;
+}
+a {
+    color: #239ddd;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.text-center {
+    text-align: center;
+}
+.header {
+    background: url(/sites/ice/files/support/images/support-banner-image.jpg) no-repeat center top;
+    height: 170px;
+    text-align: center;
+}
+.header.header-banner-dashboard {
+    background-image: url(/sites/ice/files/support/images/dashboard-banner-image.jpg);
+    margin-bottom: 50px;
+}
+.header h3 {
+    color: #fff;
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.header p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+}
+.order-services-box {
+    background: #e9e9ea;
+    padding: 30px 0 40px 0;
+    margin-top: 35px;
+}
+.order-services-title {
+    font-size: 28px;
+    color: #231f20;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #232221;
+    margin-bottom: 25px;
+}
+.order-services-box p{
+    font-size: 16px;
+    line-height: 27px;
+}
+.order-services-box-text{
+    position: relative;
+    padding-right: 50px;
+}
+.order-services-box-text p {
+    padding-left: 78px;
+}
+.order-services-box-text:before{
+    content: "";
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(/sites/ice/files/support/images/ico-sprite.png) no-repeat -2px -2px;
+    position: absolute;
+    top: 10px;
+}
+.order-services-button-box {
+    padding-left: 78px;
+    display: table;
+}
+.order-services-button-box > div {
+    display: table-cell;
+    padding-right: 10px;
+}
+.button {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-decoration: none;
+    color: #fff;
+    background: #464646;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    line-height: 35px;
+    padding: 0 30px;
+    white-space: nowrap;
+    border: none;
+}
+.button:hover {
+    text-decoration: none;
+    background: #303031;
+}
+.button.button-green {
+    background: #6cb645;
+}
+.button.button-green:hover {
+    background: #62a63d;
+}
+.order-services-phione-box {
+    font-size: 26px;
+    padding-left: 10px;
+}
+.order-services-two-col {
+    display: table;
+    width: 100%;
+    padding-top: 30px;
+}
+.order-services-two-col > div {
+    display: table-cell;
+}
+.order-services-two-col > div:first-child {
+    padding-right: 46px;
+}
+.right-rail {
+    width: 261px;
+}
+.gray-box {
+    background: #e9e9ea;
+    padding: 20px 38px;
+}
+.gray-box .order-services-title {
+    margin-bottom: 10px;
+}
+.right-rail .gray-box p{
+    font-size: 15px;
+}
+.right-rail .gray-box b{
+    font-size: 18px;
+    padding-top: 20px;
+    display: inline-block;
+}
+.help-link{
+    text-decoration: underline;
+    color: #6cb645;
+    font-size: 14px;
+}
+.help-link:hover{
+    text-decoration: none;
+}
+.help-link:before{
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url(/sites/ice/files/support/images/ico-sprite.png) no-repeat -2px -43px;
+    margin-right: 3px;
+    position: relative;
+    top: 2px;
+}
+.help-link-list li{
+    list-style: none;
+    font-size: 16px;
+    padding-top: 30px;
+}
+.help-link-list-li-bstore{
+	padding-top: 20px !important;
+}
+.ico-sprite-websites,
+.ico-sprite-emarket,
+.ico-sprite-bstore {
+    background: url(/sites/ice/files/support/images/ico-sprite.png);
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+}
+.ico-sprite-websites{
+    background-position: -45px -24px;
+    width: 29px;
+    height: 27px;
+    top: 6px;
+}
+.ico-sprite-bstore{
+    background-position: -27px -62px;
+    width: 29px;
+    height: 29px;
+    top: 10px;
+}
+.ico-sprite-emarket{
+    background-position: -45px -2px;
+    width: 27px;
+    height: 18px;
+    top: 4px;
+}
+.three-col-box{
+    display: table;
+    margin-bottom: 60px;
+}
+.three-col-box > div {
+    display: table-cell;
+    padding-right: 30px;
+    vertical-align: top;
+}
+.three-col-box p {
+    font-size: 16px;
+}
+.three-col-button{
+    text-align: center;
+}
+.three-col-button h5 {
+    font-weight: 700;
+    font-size: 16px;
+    white-space: nowrap;
+    padding-bottom: 10px;
+    color: #646567;
+}
+.icon-professional-services,
+.icon-technical-support {
+    background: url(/sites/ice/files/support/images/ico-sprite.png) no-repeat;
+    margin-top: 5px;
+}
+.icon-professional-services {
+    width: 33px;
+    height: 39px;
+    display: block;
+    background-position: -204px 0;
+}
+.icon-technical-support {
+    width: 34px;
+    height: 34px;
+    display: block;
+    background-position: -207px -41px;
+}
+.your-apps-list {
+    margin-bottom: 50px;
+    margin-left: -5px;
+    margin-right: -5px;
+    position: relative;
+}
+.your-apps-list li{
+    float: left;
+    width: 33.333333%;
+    list-style: none;
+    padding: 5px;
+}
+.your-apps-list li a{
+    text-align: center;
+    display: block;
+    background: #ededed;
+    border: 1px solid #646567;
+    height: 124px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.your-apps-list li a:hover{
+    text-decoration: none;
+}
+.your-apps-list li a i {
+    background: url(/sites/ice/files/support/images/ico-sprite.png) no-repeat 0 0;
+    display: inline-block;
+    opacity: .7;
+}
+.your-apps-list li a:hover i {
+    opacity: 1;
+}
+.your-apps-list li a span {
+    font-size: 23px;
+    font-weight: 700;
+    color: #646567;
+    display: block;
+}
+.your-apps-list li a:hover span {
+    color: #000000;
+}
+.your-apps-list li.your-apps-websites a i {
+    width: 42px;
+    height: 39px;
+    background-position: -79px 0;
+    margin-top: 23px;
+    margin-bottom: 7px;
+}
+
+.your-apps-list li.your-apps-emarket a i {
+    width: 38px;
+    height: 25px;
+    background-position: -126px 0;
+    margin-top: 28px;
+    margin-bottom: 15px;
+}
+.your-apps-list li.your-apps-bemail a i {
+    width: 33px;
+    height: 33px;
+    background-position: -168px 0;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.your-apps-list li.your-apps-mybrand a i {
+    width: 38px;
+    height: 35px;
+    background-position: -79px -42px;
+    margin-top: 23px;
+    margin-bottom: 12px;
+}
+.your-apps-list li.your-apps-promotions a i {
+    width: 41px;
+    height: 32px;
+    background-position: -126px -31px;
+    margin-top: 28px;
+    margin-bottom: 9px;
+}
+.your-apps-list li.your-apps-smarket a i {
+    width: 36px;
+    height: 36px;
+    background-position: -170px -37px;
+    margin-top: 21px;
+    margin-bottom: 12px;
+}
+/* start pop up Request a Call */
+.popup_request_a_Call .popup_black_container{
+    width: 420px;
+}
+.popup_black_container {
+    position: relative;
+    background: #ffffff;
+    width: 827px;
+    margin: 45px auto 0 auto;
+    color: #000000;
+    padding: 30px 15px;
+    border: 1px solid #d8d8d8;
+}
+.popup_black_close_button {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #837f7f;
+    font-weight: 300;
+}
+.popup_black_container h3 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 8px;
+}
+.popup_request_a_Call h4 {
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.popup_black_container h4 {
+    font-size: 19px;
+    font-weight: 400;
+    padding-bottom: 3px;
+    padding-top: 15px;
+}
+.popup_black_wrap {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0, .7);
+    z-index: 50;
+}
+.popup_body_padding{
+    padding: 20px;
+}
+.popup_request_a_Call h4{
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.popup_request_a_Call_form input{
+    border: 1px solid #231f20;
+    width: 286px;
+    height: 42px;
+    margin-bottom: 9px;
+    padding: 0 10px;
+    font-size: 17px;
+}
+.popup_request_a_Call_form .button {
+    float: right;
+    width: 200px;
+    margin-right: 62px;
+}
+.popup_request_a_call_img{
+    background: url(/sites/ice/files/support/images/ico-sprite.png) no-repeat -241px -2px;
+    width: 54px;
+    height: 54px;
+}
+/* end pop up Request a Call */
